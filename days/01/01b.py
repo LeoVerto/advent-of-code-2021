@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+from aoc import get_inputs
 
-with open("01.txt", "r") as file:
-    lines = list(map(int, file))
+lines = get_inputs(1)
 
 count = 0
 prev = [9999, 9999, 9999]
