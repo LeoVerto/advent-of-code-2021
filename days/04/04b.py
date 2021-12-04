@@ -6,7 +6,6 @@ from aoc import get_inputs
 
 lines = get_inputs(4, False)
 
-
 draws = lines[0].split(",")
 
 board_list = []
