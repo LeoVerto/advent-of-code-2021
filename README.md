@@ -1,2 +1,3 @@
 # Advent of Code 2021
-It's that time of the year again!
+Solved using Python and NumPy, 
+in an attempt to be as pythonic as possible.
