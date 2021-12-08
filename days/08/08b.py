@@ -10,6 +10,8 @@ def get_diff(a, b) -> [str]:
     return list(set(a).difference(b))
 
 
+# find digit with only one difference to another digit
+# save the digit to digit list and return the segment
 def find_digit(inputs: [str], digits: [set[str]], length: int, digit: int, other_digit: int, delta_in_digit: int = None) -> str:
     for i in inputs:
         if len(i) == length:
